@@ -1,0 +1,198 @@
+body {
+  background-color:lightblue;
+  font-family: 'Dekko', cursive;
+}
+
+.title {
+  font-size: xx-large;
+  margin-bottom: 5px;
+  text-align: center;
+  border-bottom: dotted gray thin;
+}
+
+.container {
+  text-align: center;
+}
+
+.tab {
+  margin-bottom: 10px;
+}
+
+
+.tab button {
+  background-color: white;
+  color: lightskyblue;
+
+}
+
+.tab button.active {
+  background-color: lightskyblue;
+  color: white;
+}
+
+.tablinks {
+  display: inline-block;
+  border-radius: 25%;
+  box-shadow: 3px 3px 0px 0px lightgray;
+  margin: 5px;
+  
+}
+
+.sprite {
+  background-size: contain;
+  background: url(http://icdn.kiwicrate.com/site/home/why-kiwico-sprite.png) no-repeat;
+  height: 20px;
+  width: 20px;
+}
+
+.convenient {
+  width: 67px;
+  height: 44px;
+  display: inline-block;
+  background-position: 0 0;
+}
+
+.sparks {
+  width: 51px;
+  height: 44px;
+  display: inline-block;
+  background-position: -67px 0;
+}
+
+.educational {
+  width: 62px;
+  height: 44px;
+  display: inline-block;
+  background-position: -118px 0;
+}
+
+.family {
+  width: 70px;
+  height: 44px;
+  display: inline-block;
+  background-position: -180px 0;
+}
+
+.alternative {
+  width: 65px;
+  height: 44px;
+  display: inline-block;
+  background-position: -250px 0px;
+}
+
+.fun {
+  width: 42px;
+  height: 44px;
+  display: inline-block;
+  background-position: -315px 0px;
+}
+
+.tabcontent {
+  margin: auto;
+  display: none;
+  width: fit-content;
+  background-color: white;
+  font-style: italic;
+  font-size: larger;
+  text-align: left;
+  max-width: 960px;
+}
+
+
+div.link {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+}
+
+.caption {
+  display: block;
+}
+
+img .link {
+  width: 25px;
+  height: 25px;
+}
+
+@media screen and (max-width: 412px) {
+
+  .tab {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1 / 2;
+  }
+
+  img.content {
+    display: none;
+  }
+
+  .content {
+    border: 1px solid #c8c8c8;
+    background-color: white;
+    display: flex;
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+  }
+  
+
+  .content .arrow {
+    border-style: solid;
+    position: absolute;
+  }
+
+  .top {
+    border-color: #c8c8c8 transparent transparent transparent;
+    border-width: 0px 8px 8px 8px;
+    top: -8px;
+  }
+}
+
+
+@media screen and (min-width: 413px) {
+.tabcontent {
+  margin: auto;
+  display: none;
+  width: fit-content;
+  background-color: white;
+  font-style: italic;
+  font-size: larger;
+  text-align: left;
+  max-width: 960px;
+}
+
+.content {
+  display: flex;
+}
+
+img.content {
+  float: left;
+  vertical-align: center;
+}
+
+div {
+  clear: left;
+}
+
+span {
+  display: inline-block;
+  margin: auto;
+  vertical-align: middle;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+#educationalImg {
+  border-radius: 50%;
+}
+
+}

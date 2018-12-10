@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>KiwiCo Mockup</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Dekko" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="assets/index.css">
+</head>
+
+<body>
+
+  <div class="title">
+    <span><b>Why</b> KiwiCo? </span>
+  </div>
+
+  <div class="container">
+    <div class="tab">
+      <button class="tablinks" onclick="openBlurb(event, 'convenient')">
+        <div class="link" id="convenientTab">
+          <div class="spriteContainer">
+            <span class="sprite convenient"></span>
+          </div>
+          <span class="caption">Convenient</span>
+        </div>
+      </button>
+      <button class="tablinks" onclick="openBlurb(event, 'sparks')">
+        <div class="link" id="sparksTab">
+          <div class="spriteContainer">
+            <span class="sprite sparks"></span></div>
+          <span class="caption">Sparks<br>Creativity</span>
+        </div>
+      </button>
+      <button class="tablinks" onclick="openBlurb(event, 'educational')">
+        <div class="link" id="educationalTab">
+          <div class="spriteContainer">
+            <span class="sprite educational"></span></div>
+          <span class="caption">Educational</span>
+        </div>
+      </button>
+      <button class="tablinks" onclick="openBlurb(event, 'family')">
+        <div class="link" id="familyTab">
+          <div class="spriteContainer">
+            <span class="sprite family"></span></div>
+          <span class="caption">Family Time</span>
+        </div>
+      </button>
+      <button class="tablinks" onclick="openBlurb(event, 'fun')">
+        <div class="link" id="funTab">
+          <div class="spriteContainer">
+            <span class="sprite fun"></span></div>
+          <span class="caption">Fun</span>
+        </div>
+      </button>
+      <button class="tablinks" onclick="openBlurb(event, 'alternative')">
+        <div class="link" id="familyTab">
+          <div class="spriteContainer">
+            <span class="sprite alternative"></span></div>
+          <span class="caption">Alternative to<br>Screen Time</span>
+        </div>
+      </button>
+    </div>
+
+    <!-- Tab content-->
+    <div id="convenient" class="tabcontent">
+      <div class="content">
+        <div class="arrow top middle"></div>
+        <img class="content" src="http://icdn.kiwicrate.com/site/home/why-kiwico-convenient.png">
+        <span id="convenientContent">"I enjoy crafting with my daughter, but don't have the time to research the
+          activities and buy all
+          the supplies. I like that everything comes to my door and we can start an activity right away."<br><br>
+          Jane X, Koala Crate subscriber since 2016</span>
+      </div>
+    </div>
+    <div id="sparks" class="tabcontent">
+      <div class="content">
+        <div class="arrow top middle"></div>
+        <span id="sparksContent"> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquet ligula
+          cursus nulla
+          pellentesque rutrum. Aliquam mattis fermentum quam, vel auctor metus pulvinar et." </span>
+      </div>
+    </div>
+    <div id="educational" class="tabcontent clearfix">
+      <div class="content">
+        <div class="arrow top middle"></div>
+        <img class="content" src="http://icdn.kiwicrate.com/site/home/why-kiwico-educational.jpg" id="educationalImg">
+        <span id="educationalContent">"My daughter is a <b>sponge for STEM projects​</b> and this is the perfect
+          solution to constantly
+          searching for new things to keep her engaged." </span>
+      </div>
+    </div>
+    <div id="family" class="tabcontent">
+      <div class="content">
+        <div class="arrow top middle"></div>
+        <span id="familyContent">"<b>Mauris sodales ex vel ornare fermentum.</b> Nulla luctus erat magna, eget
+          efficitur mauris
+          iaculis sed. Donec suscipit condimentum turpis, eget consectetur ipsum congue a. Suspendisse
+          faucibus tincidunt nisl at porta. Aenean tempus <b>rutrum ligula eu scelerisque.​</b> Cras elementum
+          nisi vel felis lacinia, et volutpat leo scelerisque."</span>
+      </div>
+    </div>
+    <div id="fun" class="tabcontent">
+      <div class="content">
+        <div class="arrow top middle"></div>
+        <span id="funContent">"Maecenas aliquam pellentesque velit et egestas. Aliquam ac tortor et nibh pretium
+          pharetra!"</span>
+      </div>
+    </div>
+    <div id="alternative" class="tabcontent">
+      <div class="content">
+        <div class="arrow top middle"></div>
+        <span id="altContent">"Nam sodales nunc non gravida ornare. Sed in tincidunt urna. Nam fringilla, purus non
+          commodo pretium, ex neque interdum lectus, ac egestas magna nisl sed arcu. Morbi elit enim,
+          accumsan sed nunc non." <br><br>
+          Mattis mollis nisl</span>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+<!-- scripts -->
+<script src="assets/index.js"></script>
+
+</html>
